@@ -1,0 +1,225 @@
+html {
+	padding: 0;
+	border: 0;
+	left: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+	background-image: url('pool-water.jpg');
+	background-repeat: repeat-x y;
+}
+
+#popup {
+	width: 20%;
+	min-width: 184px;
+	height: 100%;
+	max-height:40%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #DFDFDF;
+	box-shadow: 2px 3px black;
+}
+
+#row{
+	overflow: initial;
+	width: 100%;
+	height: 50%;
+	left: 0;
+	background-image: url ('http://www.scholzeace.com/images/departments/header-images/pool-water-715x315.jpg');
+}
+
+#windowDressing {
+	color: white;
+	background-color: #036;
+}
+
+#col-popper {
+	width: 33%;
+	float: left;
+}
+
+h3 {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+
+#col-chat {
+	float: left;
+	margin-left: 35%;
+	margin-bottom: 20%;
+	position: relative;
+}
+
+#messages {
+	width: 300px;
+}
+
+#messageBox {
+	width: 440px;
+	height: 200px;
+	left: 0;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	overflow: scroll;
+}
+
+#ChatWindow {
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	border-style: solid;
+	border-color: black;
+	width: 450px;
+	height: 400px;
+	background-color: #DFDFDF;
+	box-shadow: 20px 10px 0 0 rgba(0, 0, 0, 0.80);;
+} 
+
+#BrowserWindow {
+	border-style: solid;
+	border-color: black;
+	width: 200px;
+	height: 200px;
+	background-color: #DFDFDF;
+	box-shadow: 20px 10px 0 0 rgba(0, 0, 0, 0.80);;
+} 
+
+#browserimage {
+	width: 175px;
+	height: 150px;
+	margin-left: 12.5px;
+}
+
+#m{
+	padding:0 ;
+	bottom: 20px;
+	width: 220px;
+	height: 100px;
+	text-align: top;
+}
+
+#urlbar {
+	width: 190px;
+}
+
+body {
+	padding: 0;
+	border: 0;
+}
+
+div{
+
+}
+
+a {
+	font-size: 50%;
+}
+
+#startBtn {
+    background-color: #DFDFDF;
+    width: 150px;
+    border: solid 1px;
+    color: black;
+    padding: 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 0 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px black;
+}
+
+
+
+#sendBtn {
+    background-color: #DFDFDF;
+    width: 150px;
+    height: 60px;
+    bottom: 200;
+    border: solid 1px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 2px 3px black;
+}
+
+#flag {
+	padding-top: 5px;
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.menuBtn {
+	position: relative;
+    background-color: #DFDFDF;
+    width: 60%;
+    border-bottom: solid 1px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+
+
+.menuBtn:hover {
+	background-color: #036;
+	color: white;
+}
+
+.menuBtn:active {
+	background-color: white;
+	color: black;
+
+}
+
+#sendBtn:hover, #startBtn:hover {
+	background-color: #036;
+	color: white;
+}
+
+#sendBtn:active, #startBtn:active {
+	background-color: white;
+	color: black;
+}
+
+
+
+#formBox {
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	background-color: #DFDFDF;
+	border-right-style: solid;
+	border-right-color: black;
+
+}
+
+
+
+#fixed-bar {
+	left: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 10%;
+	background-color: #DFDFDF;
+}

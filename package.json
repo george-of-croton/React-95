@@ -1,0 +1,26 @@
+{
+  "name": "streatest",
+  "version": "1.0.0",
+  "description": "chat stream test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "",
+    "build-react": "browserify App.js -o bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "build-socket": "browserify socket.js -o socketBundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "build": "npm run build-react && npm run build-socket"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "express": "^4.13.4",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.6"
+  }
+}
